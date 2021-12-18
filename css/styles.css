@@ -1,0 +1,77 @@
+/* background styling*/
+body {
+  background-color: white;
+  margin:80px;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #ABCCC7;
+  border-width: 10px;
+  width: 15%;
+}
+
+/*Text Styling*/
+h1, h3, p, ul, ul, ol, td {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #6B41D8;
+  font-family: "Chihaya Jyun";
+}
+
+h3 {
+  color: #62B9AB;
+  font-family: "Caviar Dreams";
+  font-style: bold;
+}
+
+p, ul, ol, td, label, textarea {
+  font-family: "Caviar Dreams";
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #AEA0FF;
+}
+
+a:visited {
+  color: #AEA0FF;
+}
+
+a:hover {
+  color: #DFDAFF;
+  transition-duration: 0.3s;
+}
+
+/*input styling*/
+input, textarea {
+  border-color: #DEDEDE;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.send-button {
+  margin-top: 4px;
+  padding: 7px;
+  border-radius: 5px;
+  font-family: "Chihaya Jyun";
+  font-size: 20px;
+  border-color: none;
+  background-color: #62B9AB;
+  color: white;
+}
+
+/*div styles, home*/
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* div styles, portfolio*/
